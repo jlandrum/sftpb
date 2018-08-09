@@ -1,0 +1,20 @@
+{
+  "name": "sftpb",
+  "version": "1.0.0",
+  "description": "SFTP-Browser for Terminal",
+  "main": "lib/index.js",
+  "bin": {
+    "sftpb": "bin/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "ssh2-sftp-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-exec": "^3.0.0"
+  }
+}
